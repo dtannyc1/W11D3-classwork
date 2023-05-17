@@ -9,7 +9,7 @@ function Thermometer() {
   return (
     <section>
       <h2>Thermometer</h2>
-      <div className="actual-temp">Actual Temperature: {`${Temperature}`}°F</div>
+      <div className="actual-temp">Actual Temperature: {Temperature}°F</div>
       <ReactSlider
         value={Temperature}
         onAfterChange={(val) => {setTemperature(val)}}
