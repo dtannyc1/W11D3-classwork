@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react';
 
 const Sample = (props) => {
     let data = require('../../_assets/sample.json');
+
     // useEffect(() => {
     //     const fetchFunc = async () => {
     //         try {
@@ -21,7 +22,7 @@ const Sample = (props) => {
     //     fetchFunc();
     //     // const sample = fetchFunc();
     // }, [])
-    console.log(data.id)
+    console.log(data)
     return (
         <h2>Sample Component</h2>
     )
